@@ -3,7 +3,7 @@ server:
 
 spring:
   datasource:
-    url: jdbc:mariadb://db:3306/tutoria_db
+    url: jdbc:mariadb://3.80.235.23:3306/tutoria_db  # <-- Cambia "db" por la IP real
     username: root
     password: rootpassword
   jpa:
